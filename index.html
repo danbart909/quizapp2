@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><h1>The Fantastic Fun Quiz</h1></title>
+  <link href="main.css" rel="stylesheet" type ="text/css" />
+</head>
+<body>
+<main class="mainspace" aria-live="polite">
+  <section class="banner">
+    <h1 id="banner">Welcome to the Math Quiz!</h1>
+  </section>
+  <hr>
+  <section class="header">
+    <div id="intro">Get ready to have your math skills tested!</div>
+    <div id="currentQuestionDisplay">Question Number: <span id="val2"></span></div>
+    <div class="response"></div>
+  </section>
+  <section class="form">
+    <form id="answerForm">
+      <fieldset>
+      <legend id="currentQuestion"></legend>
+      <div class="possible-answers" role="radiogroup"></div>
+      <div id="score">Your Score is: <span class="val">0</span></div>
+      <button type="submit">Let's Go!
+      </button>
+      </fieldset>
+  </form>
+  </section>
+</main>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
