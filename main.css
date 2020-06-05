@@ -21,8 +21,8 @@ body {
   font-size: 17px;
 }
 
-main {
-}
+/* main {
+} */
 
 #currentQuestion, #currentQuestionDisplay, #score{
   display: none;
@@ -122,6 +122,8 @@ fieldset {
   padding-bottom: 15px;
   padding-top: 15px;
   font-family: 'Cabin', sans-serif;
+  text-align: center;
+  margin: 0 auto;
 }
 
 hr {
